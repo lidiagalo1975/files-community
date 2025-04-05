@@ -16,7 +16,7 @@ steps:
     azureResourceManagerConnection: 'ARMPipeline-conn'
     subscriptionId: '8ec0dc37-ec5c-4e58-a879-605b01cc8acc'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARMPipeline-rg.'
+    resourceGroupName: 'ARMPipeline-rg'
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/lidiagalo1975/files-community/refs/heads/main/create_web_app/azuredeploy.json.txt'
