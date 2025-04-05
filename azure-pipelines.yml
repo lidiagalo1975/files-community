@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'ARMPipeline-rg'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/lidiagalo1975/files-community/refs/heads/main/create_web_app/azuredeploy.json.txt'
+    csmFileLink: 'https://raw.githubusercontent.com/lidiagalo1975/files-community/refs/heads/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName legl01'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
